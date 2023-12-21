@@ -1,0 +1,18 @@
+#resumeContainer {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    padding: 10px;
+    height: 95vh; 
+    width:580px;
+    line-height: 99%;
+  }
+  
+  .name {
+    text-align: center;
+  }
+  #formContainer{
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+  }
