@@ -16,3 +16,78 @@
     padding-top: 10px;
     text-align: center;
   }
+
+body {
+    background-color: #A3A698;
+
+}
+
+ button {
+    width: 183px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #000;
+    right: 3%;
+    top: 2%;
+    position: absolute;
+    color: white;
+    font-family: Inria Serif;
+    font-size: 15px;
+}
+
+h1 {
+
+    color: #E6E6E6;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inria Serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 30px;
+
+}
+
+.caption{
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: Inria Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.box {
+    width: 115px;
+    height: 149px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    display: inline-block;
+    margin: 15px; 
+    border: 5px solid #BF9A84; 
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-wrapper {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+/* Additional docs button */
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+
+
