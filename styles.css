@@ -1,52 +1,58 @@
 #resumeContainer {
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    padding: 10px;
-    height: 95vh; 
-    width:580px;
-    line-height: 99%;
-  }
-  
-  .name {
-    text-align: center;
-  }
-  #formContainer{
-    padding: 20px;
-    padding-top: 10px;
-    text-align: center;
-  }
-
-body {
-    background-color: #A3A698;
-
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  padding: 10px;
+  height: 95vh; 
+  width:580px;
+  line-height: 99%;
 }
 
- button {
-    width: 183px;
-    height: 37px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #000;
-    right: 3%;
-    top: 2%;
-    position: absolute;
-    color: white;
-    font-family: Inria Serif;
-    font-size: 15px;
+.name {
+  text-align: center;
+}
+
+#formContainer{
+  padding: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+body {
+  background-color: #A3A698;
+}
+
+hr {
+  border-color: black;
+  margin-top: 30px;
+  width: 91%;
+}
+
+button {
+  width: 183px;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #000;
+  right: 5%;
+  top: 2%;
+  position: absolute;
+  color: white;
+  font-family: Inria Serif;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 h1 {
-
-    color: #E6E6E6;
-    text-align: left;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Inria Serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 30px;
+  color: #E6E6E6;
+  text-align: left;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inria Serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 80px;
 
 }
 
@@ -61,33 +67,40 @@ h1 {
 }
 
 .box {
-    width: 115px;
-    height: 149px;
-    flex-shrink: 0;
-    background: #D9D9D9;
-    display: inline-block;
-    margin: 15px; 
-    border: 5px solid #BF9A84; 
+  width: 115px;
+  height: 149px;
+  flex-shrink: 0;
+  background: #D9D9D9;
+  display: inline-block;
+  margin: 15px; 
+  border: 5px solid #BF9A84; 
 }
 
 .container {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .box-wrapper {
-    display: inline-block;
-    margin: 10px;
-    position: relative;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
 }
 
 /* Additional docs button */
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 0;
-}
-
-
+#fixedButton {
+  width: 36px; 
+  height: 36px;
+  background-color: #D9D9D9;
+  border-radius: 25px;
+  border-color: #D9D9D9;
+  color: #000;
+  text-align: center;
+  font-size: 17px;
+  position: fixed;
+  top: 750px; /* Adjust the distance from the bottom */
+  right: 25px; /* Adjust the distance from the right */
+  cursor: pointer;
+} 
